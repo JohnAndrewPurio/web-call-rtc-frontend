@@ -1,0 +1,21 @@
+
+.online-users {
+    height: 100%;
+    border: 0.3vmin solid var(--text-color);
+    padding: 4vmin;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+    margin: 1vmin;
+}
+
+ul li {
+    display: flex;
+    padding: 2vmin;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1vmin solid var(--text-color);
+}

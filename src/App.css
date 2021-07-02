@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: #010b13;
+    --secondary: #ffff33;
+    --text-color: white;
+    --font-fam: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, button {
+    font-family: var(--font-fam);
+    padding: 1.5vmin;
+    display: flex;
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: var(--main-bg);
+    background-color: var(--secondary);
+    min-width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    align-items: center;
+    font-family: var(--font-fam);
+}
+
+.App .title {
+    position: fixed;
+    top: 2vmin;
+}

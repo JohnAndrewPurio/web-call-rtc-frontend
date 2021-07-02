@@ -1,0 +1,15 @@
+.account-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vmin;
+    width: 50%;
+}
+
+.account-info p {
+    padding: 1.5vmin;
+    border: 0.3vmin solid var(--text-color);
+    margin: 1vmin;
+    width: 35%;
+    text-align: center;
+}

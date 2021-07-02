@@ -1,0 +1,5 @@
+.voice-call {
+    border: 0.3vmin solid var(--text-color);
+    padding: 5vmin;
+    width: 100%;
+}

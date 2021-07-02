@@ -1,0 +1,12 @@
+
+.make-a-call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 5vmin;
+}
+
+.make-a-call input {
+    margin: 1vmin;
+}
